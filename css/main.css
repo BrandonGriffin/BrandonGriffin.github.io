@@ -1,0 +1,58 @@
+body {
+    color: #6666cc;
+    background-color: #66cc55;
+}
+
+.main-page > section {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+}
+
+.upper-left {
+  position: relative;
+  width: 100%; 
+  height: 100%;
+}
+
+.upper-right {
+  top: 0;
+  left: 50%;  
+  width: 100%; 
+  height: 100%;
+}
+
+.lower-left {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 49.9%;  
+}
+
+.lower-right {
+  top: 49.9%;
+  left: 50%;
+  width: 100%; 
+  height: 100%;
+}
+
+section > a, .full-section > a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+}
+
+section > a:hover, .full-section > a:hover {
+    cursor: pointer;
+    background-color: #66dd55;
+    text-decoration: none;
+}
+
+.full-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
