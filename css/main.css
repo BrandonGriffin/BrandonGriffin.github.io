@@ -1,29 +1,33 @@
 body {
-    color: #0077DD;
-    background-color: #EEEEEE;
-    display: block;
+    background-color: #EFEFEF;
     font-family: lato;
 }
 
 #header {
-    line-height: 1.8em;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #888888;
 }
 
 #name {
     float: left;
-    color: black;
-    font-weight: 400;
+    color: #00AAFF;
+    margin-top: 0em;
+    margin-left: 4em;
+    margin-bottom: 0.5em;
+    font-weight: 100;
 }
 
 #links {
     float: right;
-    margin-right: 2em;
+    margin-top: 0.6em;
+    margin-right: 15em;
 }
 
 .link {
     text-decoration: none;
-    color: #555555;
-    margin-left: 0.5em;
+    color: #888888;
+    margin-left: 1em;
 }
 
 .link:hover {
@@ -34,4 +38,20 @@ body {
 
 #content {
     font-family: open-sans;
+}
+
+#personal-image-round {
+    float: left;
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
+    margin-top: 5em;
+    margin-left: 5em;
+}
+
+#about-text {
+    width: 40%;
+    float: right;
+    margin-right: 15em;
+    margin-top: 5em;
 }
