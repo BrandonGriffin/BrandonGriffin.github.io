@@ -7,52 +7,23 @@
     <title>Brandon Griffin</title> 
     <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <script src="js/transition.js"></script>
 </head>
 
 <body>
-    <div class="main-page" id="main">
-        <section class="upper-left">
-            <a class="link-to-full-section" onclick="showFullSection('about')">
-                Who Is Brandon Griffin?
-            </a>
-        </section>
-        <section class="upper-right websites-label">
-            <a class="link-to-full-section" onclick="showFullSection('websites')">
-                Check out some of my work!
-            </a>
-        </section>
-        <section class="lower-left resume-label">
-            <a class="link-to-full-section" onclick="showFullSection('resume')">
-                Where did I go to school? Where have I worked?
-            </a>
-        </section>
-        <section class="lower-right contact-label">
-            <a class="link-to-full-section" onclick="showFullSection('contact')">
-                Here is how to get in touch with me.
-            </a>
-        </section>
+    <div id="header">
+        <h1 id="name">Brandon Griffin</h1>
+        <span id="links">
+            <a class="link" id="about">About</a>
+            <a class="link" id="career">Career</a>
+            <a class="link" id="projects">Projects</a>
+            <a class="link" id="contact">Contact</a>
+        </span>
     </div>
-
-    <div class="full-section" id="about" style="display: none">
-        <a onclick="hideFullSection('about')">
-            Lorum Ipsum alla dabo. Words to see just how this will do. 
-            Wanting to get this site together. Want it to look fresher than ever.
-            Need some things to say right here. And click me now, I'll disappear. 
-            Different stuff on every line. This should be about a page when I'm done. 
-            What font should I use? What size should it be? Are the colors too much, do you like the green?
-            I am going to stop here right now. Maybe in time I will figre it out.
-        </a>
-    </div>
-    <div class="full-section" id="websites" style="display: none">
-        <a onclick="hideFullSection('websites')"><img src="content/images/danclose.jpg" /></a>
-    </div>
-    <div class="full-section" id="resume" style="display: none">
-        <a onclick="hideFullSection('resume')"><img src="content/images/train.jpg" /></a>
-    </div>
-    <div class="full-section" id="contact" style="display: none">
-        <a onclick="hideFullSection('contact')"><img src="content/images/trainstation.jpg" /></a>
-    </div>
+    
+    <div id="content">Brandon Griffin
+        Sample content text</div>
 </body>
 
 </html>
